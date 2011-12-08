@@ -22,10 +22,6 @@ To run things on a linux server from PCs, you need to open a window – and this
 The first time you want to run LEDAPS, you need to add the following to your .cshrc file so that you will find the software.
 Go to your home directory (active_users/yourname) and type 'nedit .cshrc' – which will open a window that you can use to edit your .cshrc file.  Add the following to the bottom of your .cshrc file:
 
-###########################################################################
-### Add your own customizations here
-#######################################################################
-
 ## Ledaps atmosphere correction
  source /net/blacksea/fs/bs11/zhuzhe/lndref/ledaps.sh
 
