@@ -2,7 +2,7 @@
 
 = Introduction =
 
-Add your content here.
+This Wiki helps the use of Fmask algorithm for automated clouds, cloud shadows, and snow detection in Landsat TM/ETM+ images.
 
 
 = Details =
