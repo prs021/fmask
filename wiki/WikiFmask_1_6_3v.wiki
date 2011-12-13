@@ -72,10 +72,10 @@ Step 2: cd data_dir
 
 (the folder where your landsat image is)
 
-Step 3: addpath(‘/where you saved Fmask folder/Fmask_1_6_3v’);
+Step 3: addpath(‘/Fmask folder/Fmask_1_6_3v’);
 
-For BU students, where you saved Fmask folder is '/net/blacksea/fs/bs11/zhuzhe/Fmask_1_6_3v'
- 
+For BU students, the command should be addpath('/net/blacksea/fs/bs11/zhuzhe/Fmask_1_6_3v');
+
 (Set up each time when you open a new matlab window in step 3) 
 
 Setp 4: type the command “autoFmask_1_6”
