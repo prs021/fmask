@@ -60,6 +60,8 @@ Or you can use the new commond to do all step at once
 
 *2.	How to run Fmask (1.6.3 version)*
 
+For BU student, Fmask1.6.3v is already installed, you only need to do the following steps. For other, you need to download Fmask algorithm and unzip it before the following steps.
+
 Step 1: open matlab from you linux window or from local PC
 
 > matlab 
@@ -71,6 +73,8 @@ Step 2: cd data_dir
 (the folder where your landsat image is)
 
 Step 3: addpath(‘/where you saved Fmask folder/Fmask_1_6_3v’);
+
+For BU students, where you saved Fmask folder is '/net/blacksea/fs/bs11/zhuzhe/Fmask_1_6_3v'
  
 (Set up each time when you open a new matlab window in step 3) 
 
