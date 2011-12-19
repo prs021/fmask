@@ -28,6 +28,7 @@ The first time you want to run LEDAPS, you need to add the following to your .cs
 Go to your home directory (active_users/yourname) and type 'nedit .cshrc' – which will open a window that you can use to edit your .cshrc file.  Add the following to the bottom of your .cshrc file:
 
 ## Ledaps atmosphere correction
+
 source /net/blacksea/fs/bs11/zhuzhe/lndref/ledaps.sh
 
 You only have to do this once – and then every time you login to use your account it will know where to look for the LEDAPS commands.  The first time, you need to logout and then login again to execute the new version of the .cshrc file.
