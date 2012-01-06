@@ -1,5 +1,5 @@
-#summary One-sentence summary of this page.
 #labels Fmask_1_6_3v,LEDAPS,Help
+#LEDAPS & Fmask_1_6_3v.
 
 = Introduction =
 
