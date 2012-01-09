@@ -16,7 +16,7 @@ The Fmask software can be installed both in Linux, MS, and Mac. Fmask need compu
 
 After downloading an image from glovis, you need to unzip the data and start the Matlab environment.
 
-*2.	How to run Fmask (1.6.3sav)*
+*	How to run Fmask (1.6.3sav)*
 
 For BU student, Fmask1.6.3v is already installed, you only need to do the following steps. For other, you need to download Fmask algorithm and unzip it before the following steps.
 
