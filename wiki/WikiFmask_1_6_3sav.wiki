@@ -2,13 +2,14 @@
 = Introduction =
 
 This Wiki helps the use of Fmask (1.6.3sav) algorithm for automated clouds, cloud shadows, and snow detection in Landsat TM/ETM+ images.
-What's new in Fmask1.6.3sav compared to Fmask1.6.3v
+
+*What's new in Fmask1.6.3sav compared to Fmask1.6.3v?*
 
 % Re-calibrated the scene-based threshold (cloud probability) for defining clouds (22.5 in 1.6.3sav and 20 in 1.6.3v)
 
 % Made it a stand alone version (Zhe Zhu 01/09/2012)
 
-% Impoved accuracy in TOA reflectance computing in two ways: firstly, used more accurate ESUN provied by Chander et al., (2009), RSE.; secondly, used more Sun-Earth distance table provided by Chander et al., (2009), RSE. (Zhe Zhu 01/07/2012)
+% Impoved accuracy in TOA reflectance computing in two ways: firstly, used more recent ESUN provied by Chander et al., (2009), RSE.; secondly, used more accuate Sun-Earth distance table provided by Chander et al., (2009), RSE. (Zhe Zhu 01/07/2012)
 
 = Details =
 
