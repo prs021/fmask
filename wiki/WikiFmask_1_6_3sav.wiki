@@ -1,4 +1,4 @@
-# Fmask_1_6_3sav help.
+#labels Fmask1_6_3sav,help
 
 = Introduction =
 
