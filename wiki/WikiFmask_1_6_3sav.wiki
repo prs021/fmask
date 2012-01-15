@@ -11,6 +11,12 @@ This Wiki helps the use of Fmask (1.6.3sav) algorithm for automated clouds, clou
 
 % Impoved accuracy in TOA reflectance computing in two ways: firstly, used more recent ESUN provied by Chander et al., (2009), RSE.; secondly, used more accuate Sun-Earth distance table provided by Chander et al., (2009), RSE. (Zhe Zhu 01/07/2012)
 
+*Revisions of Fmask1.6.3sav since it has been released:*
+
+% Fixed bugs caused by earth-sun distance table (by Zhe Zhu 01/15/2012)
+
+If you have download Fmask1.6.3sav before the revision date, please re-download it again. The version number will not change if it is only minor changes with bugs fixed. If there are significant changes in the algorithm principles, the version number will change. 
+
 = Details =
 
 The Fmask software can be installed both in Linux, MS, and Mac. Fmask need computers with large memory (5Gb+).
