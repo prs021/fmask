@@ -15,7 +15,7 @@ This Wiki helps the use of Fmask (1.6.3sav) algorithm for automated clouds, clou
 
 % Fixed bugs caused by earth-sun distance table (by Zhe Zhu 01/15/2012)
 
-If you have download Fmask1.6.3sav before the revision date, please re-download it again. The version number will not change if it is only minor changes with bugs fixed. If there are significant changes in the algorithm principles, the version number will change. 
+If you have download Fmask1.6.3sav before the revision date, please re-download it again. The version number will not change if there are only minor changes with bugs fixed. If there are significant changes in the algorithm principles, the version number will change. 
 
 = Details =
 
