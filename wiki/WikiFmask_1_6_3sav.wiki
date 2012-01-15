@@ -5,7 +5,9 @@ This Wiki helps the use of Fmask (1.6.3sav) algorithm for automated clouds, clou
 
 *What's new in Fmask1.6.3sav compared to Fmask1.6.3v?*
 
-% Re-calibrated the scene-based threshold (cloud probability) for defining clouds (22.5 in 1.6.3sav and 20 in 1.6.3v)
+% Fixed bugs caused by earth-sun distance table (Zhe Zhu 01/15/2012)
+
+% Re-calibrated the scene-based threshold (cloud probability) for defining clouds (22.5 in 1.6.3sav and 20 in 1.6.3v) (Zhe Zhu 01/09/2012)
 
 % Made it a stand alone version (Zhe Zhu 01/09/2012)
 
