@@ -1,4 +1,4 @@
-#labels Fmask1_6_3sav,help
+#labels Fmask1_6_3sav,Help
 = Introduction =
 
 This Wiki helps the use of Fmask (1.6.3sav) algorithm for automated clouds, cloud shadows, and snow detection in Landsat TM/ETM+ images.
