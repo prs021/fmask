@@ -1,17 +1,12 @@
 #labels Fmask,Windows,Executable
 = Introduction =
 
-This Wiki helps the use of the stand alone Windows executable Fmask algorithm for automated clouds, cloud shadows, and snow detection in Landsat TM/ETM+ images.
-
-
-= Introduction =
-
-This Wiki helps the use of Fmask 1.6.3 version for automated clouds, cloud shadows, and snow detection in Landsat TM/ETM+ images. 
+This Wiki helps the use of the stand alone Windows executable Fmask 1.6.3 version algorithm for automated clouds, cloud shadows, and snow detection in Landsat TM/ETM+ images.
 
 
 = Details =
 
-The Fmask software can be installed on Windows 64-bit and requires at least 5GB of memory.
+This stand alone Windows executable Fmask software is created by Sean Griffin (segriffin@gmail.com) which do not need to install Matlab or R and runs on Windows 64 bits machine with more than 5G memory.
 
 *	How to install it*
 
