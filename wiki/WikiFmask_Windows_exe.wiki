@@ -14,7 +14,7 @@ This stand alone Windows executable Fmask software is created by Sean Griffin (s
 
 2.  Follow promps to install Matlab Runtime Compiler (MCRInstaller.exe)
 
-3.  Place Fmask.exe and zz.txt SunEarthDistance.txt into directory of choice e.g., C:\Fmask 
+3.  Place Fmask.exe and SunEarthDistance.txt SunEarthDistance.txt into directory of choice e.g., C:\Fmask 
 
 4.  Place Landsat bands and .MTL files into the same directory
 
