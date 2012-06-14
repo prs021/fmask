@@ -1,0 +1,44 @@
+#labels Fmask,Windows,Executable
+= Introduction =
+
+This Wiki helps the use of the stand alone Windows executable Fmask algorithm for automated clouds, cloud shadows, and snow detection in Landsat TM/ETM+ images.
+
+
+= Introduction =
+
+This Wiki helps the use of Fmask 1.6.3 version for automated clouds, cloud shadows, and snow detection in Landsat TM/ETM+ images. 
+
+
+= Details =
+
+The Fmask software can be installed on Windows 64-bit and requires at least 5GB of memory.
+
+*	How to install it*
+
+1.  Download Fmask_pkg.exe in the download list and unpack it.
+
+2.  Follow promps to install Matlab Runtime Compiler (MCRInstaller.exe)
+
+3.  Place Fmask.exe and SunEarthDistance.txt into directory of choice e.g., C:\Fmask
+
+4.  Place Landsat bands and .MTL files into the same directory
+
+note: you can also set the 'Path=' to the executable and change directory 'cd' to point to the data in another location.
+
+5.  Run Fmask.exe from DOS command line (be patient after you hit enter) i.e. > Fmask
+
+6.  Process takes about 1 minute depending on machine 
+
+There is an image called XXXFmask_1_6_3sav which can be opened by ENVI. The image values are presenting the following classes: 
+
+0=>clear land pixel
+
+1=>clear water pixel
+
+2=>cloud shadow
+
+3=>snow
+
+4=>cloud
+
+255=>no observation
