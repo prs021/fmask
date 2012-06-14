@@ -18,7 +18,7 @@ This stand alone Windows executable Fmask software is created by Sean Griffin (s
 
 4.  Place Landsat bands and .MTL files into the same directory
 
-note: you can also set the 'Path=' to the executable and change directory 'cd' to point to the data in another location.
+    note: you can also set the 'Path=' to the executable and change directory 'cd' to point to the data in another location.
 
 5.  Run Fmask.exe from DOS command line (be patient after you hit enter) i.e. > Fmask
 
