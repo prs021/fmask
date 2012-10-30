@@ -17,7 +17,7 @@ This Wiki helps the use of Fmask (2.1sav) algorithm for automated clouds, cloud 
 
 = Details =
 
-The Fmask software can be installed both in Linux, MS, and Mac. Fmask need 64 bits computers 4G memory.
+The Fmask software can be installed both in Linux, MS, and Mac. Fmask need 64 bits machine with 4G memory.
 
 After downloading an image from glovis, you need to unzip the data and start the Matlab environment.
 
