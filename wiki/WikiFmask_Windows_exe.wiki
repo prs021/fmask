@@ -6,7 +6,7 @@ This Wiki helps the use of the stand alone Windows executable Fmask 2.1 version 
 
 = Details =
 
-This stand alone Windows executable Fmask software is created by Sean Griffin (segriffin@gmail.com) which do not need to install Matlab or R and runs on Windows 64 bits machine with more than 5G memory.
+This stand alone Windows executable Fmask software is created by Sean Griffin (segriffin@gmail.com) which do not need to install Matlab or R and runs on Windows 64 bits machine with 4G memory.
 
 *	How to install it*
 
