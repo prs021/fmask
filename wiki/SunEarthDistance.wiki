@@ -1,4 +1,4 @@
-#labels Table,Earth-Sun,Distance
+#labels Table,SunEarth,Distance
 #txt file that record Sun and Earth Distance.
 
 = Introduction =
