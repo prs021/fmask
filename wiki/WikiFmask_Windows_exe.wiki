@@ -26,7 +26,7 @@ note: you can also set the 'Path=' to the executable and change directory 'cd' t
 
 6.  Process takes about 1 minute depending on machine
 
-*This version only runs on Windows 64-bit and requires at least 5GB of memory.
+*This version only runs on Windows 64-bit and requires at least 4GB of memory.
 
 There is an image called XXXFmask which can be opened by ENVI. The image values are presenting the following classes: 
 
