@@ -10,7 +10,9 @@ This stand alone Windows executable Fmask software is created by Sean Griffin (s
 
 *	How to install it* 
 
-1.  Unpack Fmask_pkg.exe
+1.  Unpack Fmask_pkg.exe from Fmask 2.1 stand alone (or you can download  
+    it from http://www.mathworks.com/products/compiler/) 
+    Choose 64 bit windows 2012a
 
 2.  Follow promps to install Matlab Runtime Compiler (MCRInstaller.exe)
 
