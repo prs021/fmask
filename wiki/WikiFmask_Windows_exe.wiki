@@ -1,7 +1,7 @@
 #labels Fmask,Windows,Executable
 = Introduction =
 
-This Wiki helps the use of the stand alone Windows executable Fmask 2.1 version algorithm for automated clouds, cloud shadows, and snow detection in Landsat TM/ETM+ images. This wiki take Fmask 2.1 for example, you can swamp to Fmask 2.2 similarly.
+This Wiki helps the use of the stand alone Windows executable Fmask 2.1 version algorithm for automated clouds, cloud shadows, and snow detection in Landsat TM/ETM+ images. This wiki take Fmask 2.1 for example, you can updated to newer versions similarly.
 
 
 = Details =
