@@ -34,7 +34,7 @@ Copyright: Zhe Zhu, Boston University    Date: 04/09/2013
 6.  Copy the Fmask_Linux software to any location you want (for example /Tools/Fmask);
 
 7.  cd into the folder where Landsat bands and .MTL files downloaded and run Fmask by
-    entering /Tools/Fmask_Linux in the terminals. 
+    Entering /Tools/Fmask_Linux in the terminals. 
 
     There are three important tuning variables that you can play with: 
     1) 'cldpix' is dilated number of pixels for cloud with default values of 3. 
