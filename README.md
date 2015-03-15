@@ -11,6 +11,9 @@ paper 1: Zhu, Z. and Woodcock, C. E., Object-based cloud and cloud shadow detect
 
 paper 2: Zhu, Z. and Woodcock, C. E., Improvement and Expansion of the Fmask Algorithm: Cloud, Cloud Shadow, and Snow Detection for Landsats 4-7, 8, and Sentinel 2 Images, Remote Sensing of Environment (in press) (paper for Fmask version 3.2.).
 
+The cloud and cloud shadow manual masks used for validating the Fmask mask are availble at the following link:
+http://landsat.usgs.gov/ccavds.php
+
 This Matlab code called Fmask (Function of mask) is used for automated clouds, cloud shadows, and snow masking for Landsat TM/ETM+ images developed by Zhe Zhu (zhezhu@usgs.gov) at EROS, USGS and Curtis E. Woodcock (curtis@bu.edu) at Center for Remote Sensing, Department of Earth and Environment, Boston University.
 
 After running Fmask, there will be an image called XXXFmask that can be opened by ENVI. The image values are presenting the following classes:
