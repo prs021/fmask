@@ -3,7 +3,7 @@ Automatically exported from code.google.com/p/
 Fmask software
 The 3.2 version of Fmask is ready to use now! Able to process Landsat 4, 5, 7, and 8 images on Windows and Linux machines.
 
-Due to the failure of the Thermal Infrared Sensor (TIRS) after December 18, 2014 (DOY 352), the original Fmask algorithm developed for Landsat 8 would not work. Please use the Fmask 3.2 version designed for Sentinel 2 instead (Landsat 8 images without TIR bands). The Matlab code can be downloaded at this link and the Windows stand alone software can be downloaded at this link.
+Due to the failure of the Thermal Infrared Sensor (TIRS) after December 18, 2014 (DOY 352), the original Fmask algorithm developed for Landsat 8 would not work. Please use the Fmask 3.2 version designed for Sentinel 2 instead (Landsat 8 images without TIR bands). The Matlab code can be downloaded at this link (https://www.dropbox.com/s/x8tidhlsjfhy5wi/FmaskSentinel.zip?dl=0) and the Windows stand alone software can be downloaded at this link (https://www.dropbox.com/s/ar458c4miunaywy/Fmask_3_2.exe?dl=0).
 
 Please cite the following papers:
 
