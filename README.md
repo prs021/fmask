@@ -1,6 +1,7 @@
 # fmask
-Automatically exported from code.google.com/p/
+
 Fmask software
+
 The 3.3 version of Fmask is ready to use now! Able to process Landsat 4, 5, 7, and 8 images on Windows and Linux machines.
 
 One bug found in cloud and cloud shadow matching algorithm and it has been fixed in this new 3.3 version of Fmask. The Matlab code can be downloaded at this link (https://www.dropbox.com/sh/riruwk721zbl0he/AAAe_ccQiNS7_wHNC3HadOqRa?dl=0)
