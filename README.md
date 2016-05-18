@@ -2,19 +2,28 @@
 
 Fmask software
 
-The 3.3 version of Fmask is ready to use now! Able to process Landsat 4, 5, 7, and 8 (with TIRS and without TIRS) images on Windows, Mac, and Linux machines. If you do not have Matlab available, you can either using the stand alone version (lower than 3.3) I built, or build your own. For best results, please use the 3.3 version.
+Due to the failure of the Thermal Infrared Sensor (TIRS) after December 18, 2014 (DOY 352), the original Fmask algorithm developed for Landsat 8 would not work. Please use the Fmask designed for Sentinel 2 instead (Landsat 8 images without TIR bands).
 
-One bug found in cloud and cloud shadow matching algorithm and it has been fixed in this new 3.3 version of Fmask. 
+The 3.3 version of Fmask is ready to use now! Able to process Landsat 4, 5, 7, and 8 (with TIRS and without TIRS) images on Windows, Mac, and Linux machines. If you do not have Matlab available, you can either using the stand alone version built here, or build your own. For best results, please use the 3.3 version.
 
-The Matlab code for Landsats 4-8 in which Landsat 8 has valid TIRS band can be downloaded at this link (https://www.dropbox.com/sh/riruwk721zbl0he/AAAe_ccQiNS7_wHNC3HadOqRa?dl=0)
+3.3 Version
+Updates (since 3.2):
 
-The Matlab code for Landsats 4-8 in which Landsat 8 does not have valid TIRS band (zeor values) can be downloaded at this link(https://www.dropbox.com/sh/nqepwqp0oo53iio/AAD5abJlu6dt9yg2SIDdfU4Qa?dl=0)
+1) One bug found in cloud and cloud shadow matching algorithm and it has been fixed in this new 3.3 version of Fmask. 
 
-Note that you can change your paramters in Fmask to get best cloud, cloud shadow, and snow detection results in the Matlab code. One of the most important parameter is the cloud proability threshold (see figure here). The 22.5% is the best threshold for overall accuracy, but if you want less comission error, higher probablity is expected (50% for instance) and if you want less omission error, lower probability is expected (12.5% for instance). 
+The 3.3 version of Matlab code for Landsats 4-8 in which Landsat 8 has valid TIRS band can be downloaded at this link (https://www.dropbox.com/sh/riruwk721zbl0he/AAAe_ccQiNS7_wHNC3HadOqRa?dl=0)
+
+The 3.3 version of Windows stand alone software for Landsats 4-8 in which Landsat 8 has valid TIRS band can be downloaded at this link (https://www.dropbox.com/sh/ylzub1uzosqidwy/AAC3zmk4M3DSbSoS2OLhR5r9a?dl=0) (provided by Sean Griffin segriffin@gmail.com)
+
+The 3.3 version of Matlab code for Landsats 4-8 in which Landsat 8 does not have valid TIRS band (zeor values) can be downloaded at this link (https://www.dropbox.com/sh/nqepwqp0oo53iio/AAD5abJlu6dt9yg2SIDdfU4Qa?dl=0)
+
+The 3.2 version of Windows stand alone software for Landsats 4-8 in which Landsat 8 does not have valid TIRS band (zeor values) can be downloaded at this link (https://www.dropbox.com/sh/760d18apsfrph3i/AADwp4x0o8XMys6CDBpX6Fgma?dl=0) (provided by Sean Griffin segriffin@gmail.com)
+
+Note that you can change your paramters in Fmask to get best cloud, cloud shadow, and snow detection results in the Matlab code. One of the most important parameter is the cloud proability threshold (Figure 1). The 22.5% is the best threshold for overall accuracy, but if you want less comission error, higher probablity is expected (50% for instance) and if you want less omission error, lower probability is expected (12.5% for instance). 
 
 ![alt tag] (https://github.com/prs021/fmask/blob/master/Fmask_Prob.png)
 
-Due to the failure of the Thermal Infrared Sensor (TIRS) after December 18, 2014 (DOY 352), the original Fmask algorithm developed for Landsat 8 would not work. Please use the Fmask 3.2 version designed for Sentinel 2 instead (Landsat 8 images without TIR bands). The Matlab code can be downloaded at this link (https://www.dropbox.com/s/x8tidhlsjfhy5wi/FmaskSentinel.zip?dl=0) and the Windows stand alone software can be downloaded at this link (https://www.dropbox.com/s/ar458c4miunaywy/Fmask_3_2.exe?dl=0). Note that the Wnindows stand alone software for 3.2 does not support for changing parameters at the moment. If you want to use your own customized parameters, please use the Matlab code directly.
+Figure 1. Cloud detection accuracies with different cloud probability threshold based on a total of 142 images.
 
 Please cite the following papers:
 
