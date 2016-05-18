@@ -2,7 +2,7 @@
 
 Fmask software
 
-The 3.3 version of Fmask is ready to use now! Able to process Landsat 4, 5, 7, and 8 (with TIRS and without TIRS) images on Windows, Mac, and Linux machines.
+The 3.3 version of Fmask is ready to use now! Able to process Landsat 4, 5, 7, and 8 (with TIRS and without TIRS) images on Windows, Mac, and Linux machines. If you do not have Matlab available, you can either using the stand alone version (lower than 3.3) I built, or build your own. For best results, please use the 3.3 version.
 
 One bug found in cloud and cloud shadow matching algorithm and it has been fixed in this new 3.3 version of Fmask. 
 
@@ -10,7 +10,7 @@ The Matlab code for Landsats 4-8 in which Landsat 8 has valid TIRS band can be d
 
 The Matlab code for Landsats 4-8 in which Landsat 8 does not have valid TIRS band (zeor values) can be downloaded at this link(https://www.dropbox.com/sh/nqepwqp0oo53iio/AAD5abJlu6dt9yg2SIDdfU4Qa?dl=0)
 
-Note that you can change your paramters in Fmask to get best cloud, cloud shadow, and snow detection results in the Matlab code. If you do not have Matlab available, you can either using the stand alone version (lower than 3.3) I built, or build your own. For best results, please use the 3.3 version.
+Note that you can change your paramters in Fmask to get best cloud, cloud shadow, and snow detection results in the Matlab code. One of the most important parameter is the cloud proability threshold (see figure here). The 22.5% is the best threshold for overall accuracy, but if you want less comission error, higher probablity is expected (50% for instance) and if you want less omission error, lower probability is expected (12.5% for instance). 
 
 ![alt tag] (https://github.com/prs021/fmask/blob/master/Fmask_Prob.png)
 
