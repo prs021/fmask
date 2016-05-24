@@ -6,11 +6,12 @@ Due to the failure of the Thermal Infrared Sensor (TIRS) after December 18, 2014
 
 The 3.3 & 3.2 versions of Fmask is ready to use now! Able to process **Landsat 4, 5, 7, and 8** (**with TIRS and without TIRS**) and **Sentinel 2** images on Windows, Mac, and Linux machines. If you do not have Matlab available, you can either using the stand alone version built here, or build your own. For best results, please use the 3.3 version.
 
-3.3 Version
-Updates (since 3.2):
+**3.3 Version**
+**Updates (since 3.2):**
 
-1) One bug found in cloud and cloud shadow matching algorithm and it has been fixed in this new 3.3 version of Fmask.
-2) One bug found in building 3D cloud objects for small clouds (radium <= 3) for versions where TIRS band is used. 
+**1) One bug found in cloud and cloud shadow matching algorithm and it has been fixed in this new 3.3 version of Fmask.**
+
+**2) One bug found in building 3D cloud objects for small clouds (radium <= 3) for versions where TIRS band is used.**
 
 The 3.3 version of Matlab code for Landsats 4-8 in which Landsat 8 has valid TIRS band can be downloaded at this link (https://www.dropbox.com/sh/riruwk721zbl0he/AAAe_ccQiNS7_wHNC3HadOqRa?dl=0)
 
