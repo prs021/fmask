@@ -19,7 +19,7 @@ The 3.3 version of Windows stand alone software for Landsats 4-8 in which Landsa
 
 The 3.3 version of Matlab code for Landsats 4-8 in which Landsat 8 does not have valid TIRS band (zeor values) can be downloaded at this link (https://www.dropbox.com/sh/nqepwqp0oo53iio/AAD5abJlu6dt9yg2SIDdfU4Qa?dl=0)
 
-The 3.2 version of Windows stand alone software for Landsats 4-8 in which Landsat 8 does not have valid TIRS band (zeor values) can be downloaded at this link (https://www.dropbox.com/sh/760d18apsfrph3i/AADwp4x0o8XMys6CDBpX6Fgma?dl=0) (provided by Sean Griffin segriffin@gmail.com)
+The 3.3 version of Windows stand alone software for Landsats 4-8 in which Landsat 8 does not have valid TIRS band (zeor values) can be downloaded at this link (https://www.dropbox.com/sh/760d18apsfrph3i/AADwp4x0o8XMys6CDBpX6Fgma?dl=0) (provided by Sean Griffin segriffin@gmail.com)
 
 The 3.2 version of Matlab code for Sentinel 2 images can be downloaded at this link (https://www.dropbox.com/sh/66ay558afm7mqsn/AADmcaCPMWAli3fsP-AnNaHWa?dl=0) (provided by Martin Claverie mcl@umd.edu)
 
