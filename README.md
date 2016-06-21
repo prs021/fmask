@@ -6,22 +6,22 @@ Due to the failure of the Thermal Infrared Sensor (TIRS) after December 18, 2014
 
 The 3.3 & 3.2 versions of Fmask is ready to use now! Able to process **Landsat 4, 5, 7, and 8** (**with TIRS and without TIRS**) and **Sentinel 2** images on Windows, Mac, and Linux machines. If you do not have Matlab available, you can either using the stand alone version built here, or build your own. For best results, please use the 3.3 version.
 
-**3.3 Version**
-**Updates (since 3.2):**
+3.3 Version
+Updates (since 3.2):
 
-1) Bug fixed in cloud and cloud shadow matching algorithm (from 3.2 to 3.2).
+1) Bug fixed in cloud and cloud shadow matching algorithm.
 
-2) Bug fixed in building 3D cloud objects for small clouds (radium <= 3) for versions where TIRS band is used (from 3.3.0 to 3.3.1).
+2) Bug fixed in building 3D cloud objects for small clouds (radium <= 3) for versions where TIRS band is used.
 
-The 3.3 version of Matlab code for Landsats 4-8 in which Landsat 8 has valid TIRS band can be downloaded at this link (https://www.dropbox.com/sh/riruwk721zbl0he/AAAe_ccQiNS7_wHNC3HadOqRa?dl=0)
+The 3.3 version of **Matlab code** for **Landsats 4-8 in which Landsat 8 has valid TIRS band** can be downloaded at this link (https://www.dropbox.com/sh/riruwk721zbl0he/AAAe_ccQiNS7_wHNC3HadOqRa?dl=0)
 
-The 3.3 version of Windows stand alone software for Landsats 4-8 in which Landsat 8 has valid TIRS band can be downloaded at this link (https://www.dropbox.com/sh/ylzub1uzosqidwy/AAC3zmk4M3DSbSoS2OLhR5r9a?dl=0) (provided by Sean Griffin segriffin@gmail.com)
+The 3.3 version of **Windows stand alone software** for **Landsats 4-8 in which Landsat 8 has valid TIRS band** can be downloaded at this link (https://www.dropbox.com/sh/ylzub1uzosqidwy/AAC3zmk4M3DSbSoS2OLhR5r9a?dl=0) (provided by Sean Griffin segriffin@gmail.com)
 
-The 3.3 version of Matlab code for Landsats 4-8 in which Landsat 8 does not have valid TIRS band (zeor values) can be downloaded at this link (https://www.dropbox.com/sh/nqepwqp0oo53iio/AAD5abJlu6dt9yg2SIDdfU4Qa?dl=0)
+The 3.3 version of **Matlab code** for **Landsats 4-8 in which Landsat 8 does not have valid TIRS band** (zeor values) can be downloaded at this link (https://www.dropbox.com/sh/nqepwqp0oo53iio/AAD5abJlu6dt9yg2SIDdfU4Qa?dl=0)
 
-The 3.3 version of Windows stand alone software for Landsats 4-8 in which Landsat 8 does not have valid TIRS band (zeor values) can be downloaded at this link (https://www.dropbox.com/sh/760d18apsfrph3i/AADwp4x0o8XMys6CDBpX6Fgma?dl=0) (provided by Sean Griffin segriffin@gmail.com)
+The 3.3 version of **Windows stand alone software** for **Landsats 4-8 in which Landsat 8 does not have valid TIRS band** (zeor values) can be downloaded at this link (https://www.dropbox.com/sh/760d18apsfrph3i/AADwp4x0o8XMys6CDBpX6Fgma?dl=0) (provided by Sean Griffin segriffin@gmail.com)
 
-The 3.2 version of Matlab code for Sentinel 2 images can be downloaded at this link (https://www.dropbox.com/sh/66ay558afm7mqsn/AADmcaCPMWAli3fsP-AnNaHWa?dl=0) (provided by Martin Claverie mcl@umd.edu)
+The 3.2 version of **Matlab code** for **Sentinel 2** images can be downloaded at this link (https://www.dropbox.com/sh/66ay558afm7mqsn/AADmcaCPMWAli3fsP-AnNaHWa?dl=0) (provided by Martin Claverie mcl@umd.edu)
 
 Note that you can change your paramters in Fmask to get best cloud, cloud shadow, and snow detection results in the Matlab code. One of the most important parameter is the cloud proability threshold (Figure 1). The 22.5% is the best threshold for overall accuracy, but if you want less comission error, higher probablity is expected (50% for instance) and if you want less omission error, lower probability is expected (12.5% for instance). 
 
