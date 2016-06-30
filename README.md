@@ -23,6 +23,18 @@ The 3.3 version of **Windows stand alone software** for **Landsats 4-8 in which 
 
 The 3.2 version of **Matlab code** for **Sentinel 2** images can be downloaded at this link (https://www.dropbox.com/sh/66ay558afm7mqsn/AADmcaCPMWAli3fsP-AnNaHWa?dl=0) (provided by Martin Claverie mcl@umd.edu)
 
+The 3.2 version of **Windows stand alone software** for **Sentinel 2** images can be downloaded at this link (https://www.dropbox.com/s/03bhvoa211hs3rd/MyAppInstaller_web.exe?dl=0) (provided by Martin Claverie mcl@umd.edu & Sean Griffin segriffin@gmail.com)
+
+The command calling sequence is: FmaskMSI InputDirectory OutputDirectory cldpix sdpix snpix cldprob
+
+where, cldpix is cloud pixel buffer value (default is 3)
+
+sdpix is shadow pixel buffer value (default is 3)
+
+snpix is snow pixel buffer value (default is 0)
+
+cldprob is cloud probability percentage (default is 22.5)
+
 Note that you can change your paramters in Fmask to get best cloud, cloud shadow, and snow detection results in the Matlab code. One of the most important parameter is the cloud proability threshold (Figure 1). The 22.5% is the best threshold for overall accuracy, but if you want less comission error, higher probablity is expected (50% for instance) and if you want less omission error, lower probability is expected (12.5% for instance). 
 
 ![alt tag] (https://github.com/prs021/fmask/blob/master/Fmask_Prob.png)
