@@ -23,8 +23,6 @@ The 3.3 version of **Windows stand alone software** for **Landsats 4-8 in which 
 
 The 3.2 version of **Matlab code** for **Sentinel 2** images can be downloaded at this link (https://www.dropbox.com/sh/66ay558afm7mqsn/AADmcaCPMWAli3fsP-AnNaHWa?dl=0) (provided by Martin Claverie mcl@umd.edu)
 
-The 3.2 version of **Windows stand alone software** for **Sentinel 2** images can be downloaded at this link (https://www.dropbox.com/s/03bhvoa211hs3rd/MyAppInstaller_web.exe?dl=0) (provided by Martin Claverie mcl@umd.edu & Sean Griffin segriffin@gmail.com)
-
 The command calling sequence is: FmaskMSI InputDirectory OutputDirectory cldpix sdpix snpix cldprob
 
 where, cldpix is cloud pixel buffer value (default is 3)
