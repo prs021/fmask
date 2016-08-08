@@ -2,6 +2,8 @@
 
 Fmask software
 
+The software called Fmask (Function of mask) is used for automated clouds, cloud shadows, and snow masking for Landsat TM/ETM+ images. Please contact Zhe Zhu (zhe.zhu@ttu.edu) at Department of Geosciences, Texas Tech University if you have any questions.
+
 Due to the failure of the Thermal Infrared Sensor (TIRS) after December 18, 2014 (DOY 352), the original Fmask algorithm developed for Landsat 8 would not work. Please use the Fmask designed for Sentinel 2 instead (Landsat 8 images without TIR bands).
 
 The 3.3 & 3.2 versions of Fmask is ready to use now! Able to process **Landsat 4, 5, 7, and 8** (**with TIRS and without TIRS**) and **Sentinel 2** images on Windows, Mac, and Linux machines. If you do not have Matlab available, you can either using the stand alone version built here, or build your own. For best results, please use the 3.3 version.
@@ -22,6 +24,8 @@ The 3.3 version of **Matlab code** for **Landsats 4-8 in which Landsat 8 does no
 The 3.3 version of **Windows stand alone software** for **Landsats 4-8 in which Landsat 8 does not have valid TIRS band** (zeor values) can be downloaded at this link (https://www.dropbox.com/sh/760d18apsfrph3i/AADwp4x0o8XMys6CDBpX6Fgma?dl=0) (provided by Sean Griffin segriffin@gmail.com)
 
 The 3.2 version of **Matlab code** for **Sentinel 2** images can be downloaded at this link (https://www.dropbox.com/sh/66ay558afm7mqsn/AADmcaCPMWAli3fsP-AnNaHWa?dl=0) (provided by Martin Claverie mcl@umd.edu)
+
+The 3.2 version of **Windows stand alone software** for **Sentinel 2** images can be downloaded at this [link] (https://www.dropbox.com/s/flc88qd2b1hhxc0/MyAppInstaller_web.exe?dl=0) (provided by Sean Griffin segriffin@gmail.com)
 
 The command calling sequence is: FmaskMSI InputDirectory OutputDirectory cldpix sdpix snpix cldprob
 
@@ -47,8 +51,6 @@ Please cite the following papers:
 
 The cloud and cloud shadow manual masks used for validating the Fmask mask are availble at the following link:
 http://landsat.usgs.gov/ccavds.php
-
-This Matlab code called Fmask (Function of mask) is used for automated clouds, cloud shadows, and snow masking for Landsat TM/ETM+ images developed by Zhe Zhu (zhezhu@usgs.gov) at EROS, USGS and Curtis E. Woodcock (curtis@bu.edu) at Center for Remote Sensing, Department of Earth and Environment, Boston University.
 
 After running Fmask, there will be an image called XXXFmask that can be opened by ENVI. The image values are presenting the following classes:
 
