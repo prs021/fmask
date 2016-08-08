@@ -15,27 +15,17 @@ Updates (since 3.2):
 
 2) Bug fixed in building 3D cloud objects for small clouds (radium <= 3) for versions where TIRS band is used.
 
-The 3.3 version of **Matlab code** for **Landsats 4-8 in which Landsat 8 has valid TIRS band** can be downloaded at this link (https://www.dropbox.com/sh/riruwk721zbl0he/AAAe_ccQiNS7_wHNC3HadOqRa?dl=0)
+The 3.3 version of **Matlab code** for **Landsats 4-8 in which Landsat 8 has valid TIRS band** can be downloaded at this [link] (https://www.dropbox.com/sh/riruwk721zbl0he/AAAe_ccQiNS7_wHNC3HadOqRa?dl=0)
 
-The 3.3 version of **Windows stand alone software** for **Landsats 4-8 in which Landsat 8 has valid TIRS band** can be downloaded at this link (https://www.dropbox.com/sh/ylzub1uzosqidwy/AAC3zmk4M3DSbSoS2OLhR5r9a?dl=0) (provided by Sean Griffin segriffin@gmail.com)
+The 3.3 version of **Windows stand alone software** for **Landsats 4-8 in which Landsat 8 has valid TIRS band** can be downloaded at this [link] (https://www.dropbox.com/sh/ylzub1uzosqidwy/AAC3zmk4M3DSbSoS2OLhR5r9a?dl=0) (provided by Sean Griffin segriffin@gmail.com)
 
-The 3.3 version of **Matlab code** for **Landsats 4-8 in which Landsat 8 does not have valid TIRS band** (zeor values) can be downloaded at this link (https://www.dropbox.com/sh/nqepwqp0oo53iio/AAD5abJlu6dt9yg2SIDdfU4Qa?dl=0)
+The 3.3 version of **Matlab code** for **Landsats 4-8 in which Landsat 8 does not have valid TIRS band** (zeor values) can be downloaded at this [link] (https://www.dropbox.com/sh/nqepwqp0oo53iio/AAD5abJlu6dt9yg2SIDdfU4Qa?dl=0)
 
-The 3.3 version of **Windows stand alone software** for **Landsats 4-8 in which Landsat 8 does not have valid TIRS band** (zeor values) can be downloaded at this link (https://www.dropbox.com/sh/760d18apsfrph3i/AADwp4x0o8XMys6CDBpX6Fgma?dl=0) (provided by Sean Griffin segriffin@gmail.com)
+The 3.3 version of **Windows stand alone software** for **Landsats 4-8 in which Landsat 8 does not have valid TIRS band** (zeor values) can be downloaded at this [link] (https://www.dropbox.com/sh/760d18apsfrph3i/AADwp4x0o8XMys6CDBpX6Fgma?dl=0) (provided by Sean Griffin segriffin@gmail.com)
 
 The 3.2 version of **Matlab code** for **Sentinel 2** images can be downloaded at this link (https://www.dropbox.com/sh/66ay558afm7mqsn/AADmcaCPMWAli3fsP-AnNaHWa?dl=0) (provided by Martin Claverie mcl@umd.edu)
 
 The 3.2 version of **Windows stand alone software** for **Sentinel 2** images can be downloaded at this [link] (https://www.dropbox.com/s/flc88qd2b1hhxc0/MyAppInstaller_web.exe?dl=0) (provided by Sean Griffin segriffin@gmail.com)
-
-The command calling sequence is: FmaskMSI InputDirectory OutputDirectory cldpix sdpix snpix cldprob
-
-where, cldpix is cloud pixel buffer value (default is 3)
-
-sdpix is shadow pixel buffer value (default is 3)
-
-snpix is snow pixel buffer value (default is 0)
-
-cldprob is cloud probability percentage (default is 22.5)
 
 Note that you can change your paramters in Fmask to get best cloud, cloud shadow, and snow detection results in the Matlab code. One of the most important parameter is the cloud proability threshold (Figure 1). The 22.5% is the best threshold for overall accuracy, but if you want less comission error, higher probablity is expected (50% for instance) and if you want less omission error, lower probability is expected (12.5% for instance). 
 
@@ -101,7 +91,7 @@ Need to install Matlab and have image process and statistics toolboxes and runs 
 Linux Executable
 Stand alone Linux executable Fmask software which do not need to install Matlab or R and runs on Linux 64 bits machine with 4G+ memory. It is based on the same Fmask 3.2sav Matlab code and it can be download and used by the following steps:
 
-1. Download Fmask 3.2 version Linux package "Fmask_pkg.zip" Use any Brosweer and go to the following ftp sites: http://ftp-earth.bu.edu/public/zhuzhe/Fmask_Linux_3.2v/
+1. Download Fmask 3.2 version Linux package "Fmask_pkg.zip" Use any Brosweer and go to the following [ftp sites]: (http://ftp-earth.bu.edu/public/zhuzhe/Fmask_Linux_3.2v/)
 
 2. Unzip the software using "unzip Fmask_pkg.zip"
 
@@ -146,7 +136,7 @@ There are four important tuning variables that you can play with:
 Windows Executable
 Stand alone Linux executable Fmask software which do not need to install Matlab or R and runs on Linux 64 bits machine with 4G+ memory. It is based on the same Fmask 3.2sav Matlab code and it can be download and used by the following steps:
 
-1. Download Fmask 3.2 version Windows package "Fmask_pkg.exe" Use any Brosweer and go to the following ftp sites: http://ftp-earth.bu.edu/public/zhuzhe/Fmask_Windows_3.2v/
+1. Download Fmask 3.2 version Windows package "Fmask_pkg.exe" Use any Brosweer and go to the following [ftp sites]: (http://ftp-earth.bu.edu/public/zhuzhe/Fmask_Windows_3.2v/)
 
 2. Double click "Fmask_pkg.exe" and install it with wizard.
 
