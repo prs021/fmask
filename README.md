@@ -8,7 +8,7 @@ Due to the failure of the Thermal Infrared Sensor (TIRS) after December 18, 2014
 
 The 3.3 & 3.2 versions of Fmask is ready to use now! Able to process **Landsat 4, 5, 7, and 8** (**with TIRS and without TIRS**) and **Sentinel 2** images on Windows, Mac, and Linux machines. If you do not have Matlab available, you can either using the stand alone version built here, or build your own. For best results, please use the 3.3 version.
 
-3.3 Version
+# 3.3 Version
 Updates (since 3.2):
 
 1) Bug fixed in cloud and cloud shadow matching algorithm.
@@ -56,7 +56,7 @@ After running Fmask, there will be an image called XXXFmask that can be opened b
 
 255 => no observation
 
-3.2 Version
+# 3.2 Version
 Updates (since 2.2):
 
 1) Detecting clouds for Landsat 8 using new bands (Zhe 09/04/2013)
@@ -159,7 +159,7 @@ There are four important tuning variables that you can play with:
 CFmask
 There is also a C version of Fmask 3.2 version performed by USGS. See their site for details here.
 
-2.2 Version
+# 2.2 Version
 Updates (since 2.1):
 
 1) Fixed a bug find in writing the ENVI header for the UTM zone number (Zhe 02/26/2013).
@@ -172,7 +172,7 @@ Stand alone Linux executable Fmask software which do not need to install Matlab 
 Windows Executable
 Stand alone Windows executable Fmask software created by Sean Griffin (segriffin@gmail.com) which do not need to install Matlab or R and runs on Windows 64 bits machine with 4G+ memory. It is based on the same Fmask 2.2sav Matlab code and can be downloaded at the "Downloads" tab with help files in the "Wiki" tab.
 
-2.1 Version
+# 2.1 Version
 Updates (since 2.0):
 
 1) Process both the new and old "MTL.txt" metadata (Zhe Zhu 10/18/2012)
@@ -185,7 +185,7 @@ You need to have Matlab software with statistic and image process toolboxes inst
 Windows Executable
 This website also hosts a stand alone Windows executable Fmask software created by Sean Griffin (segriffin@gmail.com) which do not need to install Matlab or R and runs on Windows 64 bits machine with 4G+ memory. It is based on the same Fmask 2.1sav Matlab code and can be at the "Downloads" tab with help files in the "Wiki" tab.
 
-2.0 Version
+# 2.0 Version
 Updates (since 1.6.3):
 
 1) Process TM and ETM+ images with the new "MTL.txt" metadata (Zhe Zhu 09/28/2012)
@@ -199,7 +199,7 @@ Updates (since 1.6.3):
 Matlab
 The Fmask 2.0sav software can only process the new Landsat metadata format downloaded after August 29, 2012. It includes the most recent updates since 1.6.3sav as follows:
 
-1.6.3 Version
+# 1.6.3 Version
 Matlab
 The Fmask 1.6.3 & Fmask 1.6.3sav software can only process the old Landsat metadata format downloaded before August 29, 2012.
 
