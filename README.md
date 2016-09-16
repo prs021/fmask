@@ -56,9 +56,10 @@ After running Fmask, there will be an image called XXXFmask that can be opened b
 
 255 => no observation
 
-**How to use it**
+**HOW TO USE**
 
 **Matlab**
+
 Need to install Matlab and have image process and statistics toolboxes and runs on Linux 64 bits machine with 4G+ memory. It can be download and used by the following steps:
 
 1. Download the Matlab code for Fmask 3.3 version by this link and unzip the Fmask folder.
@@ -67,71 +68,9 @@ Need to install Matlab and have image process and statistics toolboxes and runs 
 
 3. Type "autoFmask" in the command window.
 
-**Linux Executable**
-Stand alone Linux executable Fmask software which do not need to install Matlab or R and runs on Linux 64 bits machine with 4G+ memory. It is based on the same Fmask 3.2sav Matlab code and it can be download and used by the following steps:
-
-1. Download Fmask 3.3 version Linux package.
-
-2. Unzip the software using "unzip Fmask_pkg.zip"
-
-3. There will be a new file called MCRInstaller.zip at the same folder and unzip this file.
-
-4. Install MCRInstaller by typing "./install" in the same folder
-
-5. There will be wizard that help you install and there will be two environment variables called "LD_LIBRARY_PATH" and "XAPPLRESDIR" showed up in the wizard. Copy the two variables.
-
-For example, This is what I got:
-
-"On the target computer, append the following to your LD_LIBRARY_PATH environment variable:
-
-/home/amd64
-
-Next, set the XAPPLRESDIR environment variable to the following value:
-
-/home/app-defaults"
-
-6. Edit your .cshrc (.tcsh is the same, for .bash replace it with export LD_LIBRARY_PATH="...") file and add this
-
-"setenv LD_LIBRARY_PATH /home/amd64"
-
-"setenv XAPPLRESDIR /home/app-defaults"
-
-7. Save the shell or bash script and source it;
-
-8. Copy the "Fmask" software to any location you want (for example "/Tools/Fmask");
-
-9. cd into the folder where Landsat bands and .MTL files downloaded and run Fmask by entering "/Tools/Fmask" in the terminals.
-
-There are four important tuning variables that you can play with:
-
-1) "cldpix" is dilated number of pixels for cloud with default values of 3.
-
-2) "sdpix" is dilated number of pixels for cloud shadow with default values of 3.
-
-3) "snpix" is dilated number of pixels for snow with default values of 0.
-
-4) "cldprob" is the cloud probability threshold with default values of 22.5 (range from 0~100). If you want to use default values "/Tools/Fmask" is enough, if you want to customize your own parameters, you can use "/Tools/Fmask cldpix sdpix snpix cldprob", for example "/Tools/Fmask 3 3 0 22.5" in the terminals
-
 **Windows Executable**
-Stand alone Linux executable Fmask software which do not need to install Matlab or R and runs on Linux 64 bits machine with 4G+ memory. It is based on the same Fmask 3.2sav Matlab code and it can be download and used by the following steps:
 
-1. Download Fmask 3.3 version Windows package and double click it to install.
-
-3. There will be a new file called "Fmask.exe" at the same folder and this is your Fmask software
-
-4. Copy the "Fmask.exe" software to any location you want (for example "c:\Tools");
-
-5. cd into the folder where Landsat bands and .MTL files downloaded and run Fmask by entering "c:\Tools\Fmask" in the Command Prompt you can find in the Accessories.
-
-There are four important tuning variables that you can play with:
-
-1) "cldpix" is dilated number of pixels for cloud with default values of 3.
-
-2) "sdpix" is dilated number of pixels for cloud shadow with default values of 3.
-
-3) "snpix" is dilated number of pixels for snow with default values of 0.
-
-4) "cldprob" is the" cloud probability threshold with default values of 22.5 (range from 0~100). If you want to use default values "c:\Tools\Fmask" is enough, if you want to customize your own parameters, you can use “c:\Tools\Fmask cldpix sdpix snpix cldprob", for example “c:\Tools\Fmask 3 3 0 22.5"in the terminals
+The instructions can be found in this [link] (https://www.dropbox.com/s/attc43tty0l36x3/Fmask_Windows_Standalone_Instructions.pdf?dl=0). 
 
 **CFmask**
 There is also a C version of Fmask performed by USGS. See their site for details [here] (https://github.com/USGS-EROS/espa-cloud-masking).
