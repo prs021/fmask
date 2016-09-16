@@ -70,7 +70,7 @@ Need to install Matlab and have image process and statistics toolboxes and runs 
 
 **Windows Executable**
 
-The instructions can be found in this [link] (https://www.dropbox.com/s/attc43tty0l36x3/Fmask_Windows_Standalone_Instructions.pdf?dl=0). 
+The instructions can be found in this [link] (https://www.dropbox.com/s/gx7x7htynxk5ulp/Fmask_Windows_Standalone_Instructions_Website.pdf?dl=0). 
 
 **CFmask**
 There is also a C version of Fmask performed by USGS. See their site for details [here] (https://github.com/USGS-EROS/espa-cloud-masking).
