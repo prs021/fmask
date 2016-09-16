@@ -79,7 +79,7 @@ Updates (since 2.2):
 
 10) Exclude small cloud object < 3 pixels (Zhe 10/27/2013)
 
-Matlab
+**Matlab**
 Need to install Matlab and have image process and statistics toolboxes and runs on Linux 64 bits machine with 4G+ memory. It can be download and used by the following steps:
 
 1. Download the Matlab code for Fmask 3.2 version by this link and unzip the Fmask folder.
@@ -88,7 +88,7 @@ Need to install Matlab and have image process and statistics toolboxes and runs 
 
 3. Type "autoFmask" in the command window.
 
-Linux Executable
+**Linux Executable**
 Stand alone Linux executable Fmask software which do not need to install Matlab or R and runs on Linux 64 bits machine with 4G+ memory. It is based on the same Fmask 3.2sav Matlab code and it can be download and used by the following steps:
 
 1. Download Fmask 3.2 version Linux package "Fmask_pkg.zip" Use any Brosweer and go to the following [ftp sites]: (http://ftp-earth.bu.edu/public/zhuzhe/Fmask_Linux_3.2v/)
@@ -133,7 +133,7 @@ There are four important tuning variables that you can play with:
 
 4) "cldprob" is the cloud probability threshold with default values of 22.5 (range from 0~100). If you want to use default values "/Tools/Fmask" is enough, if you want to customize your own parameters, you can use "/Tools/Fmask cldpix sdpix snpix cldprob", for example "/Tools/Fmask 3 3 0 22.5" in the terminals
 
-Windows Executable
+**Windows Executable**
 Stand alone Linux executable Fmask software which do not need to install Matlab or R and runs on Linux 64 bits machine with 4G+ memory. It is based on the same Fmask 3.2sav Matlab code and it can be download and used by the following steps:
 
 1. Download Fmask 3.2 version Windows package "Fmask_pkg.exe" Use any Brosweer and go to the following [ftp sites]: (http://ftp-earth.bu.edu/public/zhuzhe/Fmask_Windows_3.2v/)
@@ -156,8 +156,8 @@ There are four important tuning variables that you can play with:
 
 4) "cldprob" is the" cloud probability threshold with default values of 22.5 (range from 0~100). If you want to use default values "c:\Tools\Fmask" is enough, if you want to customize your own parameters, you can use “c:\Tools\Fmask cldpix sdpix snpix cldprob", for example “c:\Tools\Fmask 3 3 0 22.5"in the terminals
 
-CFmask
-There is also a C version of Fmask 3.2 version performed by USGS. See their site for details here.
+**CFmask**
+There is also a C version of Fmask 3.2 version performed by USGS. See their site for details [here] (https://github.com/USGS-EROS/espa-cloud-masking).
 
 # 2.2 Version
 Updates (since 2.1):
