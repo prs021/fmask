@@ -33,7 +33,7 @@ The 3.2 version of **Windows stand alone software** for **Sentinel 2** images ca
 
 Note that you can change your paramters in Fmask to get best cloud, cloud shadow, and snow detection results in the Matlab code. One of the most important parameter is the cloud proability threshold (Figure 1). The 22.5% is the best threshold for overall accuracy, but if you want less comission error, higher probablity is expected (50% for instance) and if you want less omission error, lower probability is expected (12.5% for instance). 
 
-![alt text] (https://github.com/prs021/fmask/blob/master/Fmask_Prob.png)
+![alt text](https://github.com/prs021/fmask/blob/master/Fmask_Prob.png)
 
 Figure 1. Cloud detection accuracies with different cloud probability threshold based on a total of 142 images.
 
