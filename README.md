@@ -4,6 +4,8 @@ Fmask software
 
 The software called Fmask (Function of mask) is used for automated clouds, cloud shadows, and snow masking for Landsat TM/ETM+ images. Please contact Zhe Zhu (zhe.zhu@ttu.edu) at Department of Geosciences, Texas Tech University if you have any questions.
 
+**IMPORTANT: Many values from the current Collection 1 Landsat 4-8 QA Band provided by USGS are derived form 3.3 Version of Fmask algorithm based on default parameters (cloud probability is 22.5% and buffer pixel size is 3). For example, Snow/ice Confidence (bits 9-10) and Cloud Shadow Confidence (bits 7-8) has only low confidence (01) and high confidence (11) which corresponding to the snow/ice and cloud shadow mask in Fmask. The Cloud Confidence (bits 5-6) is based on Fmask cloud probability in which >22.5% is high (11), >12.5% is medium (10), and <12.5% is low (01) with 00 kept for future use. The Cloud (bit 4) is based on Fmask cloud mask (0 is not cloud and 1 is cloud in Fmask)**
+
 **IMPORTANT: Due to the failure of the Thermal Infrared Sensor (TIRS) after December 18, 2014 (DOY 352), the original Fmask algorithm developed for Landsat 8 would not work. Please use the Fmask designed for Sentinel 2 instead (Landsat 8 images without TIR bands).**
 
 **IMPORTANT: The Fmask algorithm only works for pre-collection Landsat data with raw DN values (collected before Oct 1st, 2017). If you want to Fmask results for Landsat Collect 1 or 2 data, use the QA values in the products.**
