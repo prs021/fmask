@@ -10,6 +10,12 @@ The software called Fmask (Function of mask) is used for automated clouds, cloud
 
 **IMPORTANT: Due to the failure of the Thermal Infrared Sensor (TIRS) after December 18, 2014 (DOY 352), the original Fmask algorithm developed for Landsat 8 would not work. Please use the Fmask designed for Sentinel 2 instead (Landsat 8 images without TIR bands).**
 
+** IMPORTANT: You can change your paramters in Fmask to get best cloud, cloud shadow, and snow detection results in the Matlab code. One of the most important parameter is the cloud proability threshold (Figure 1). The 22.5% is the best threshold for overall accuracy, but if you want less comission error, higher probablity is expected (50% for instance) and if you want less omission error, lower probability is expected (12.5% for instance).** 
+
+![alt text](https://github.com/prs021/fmask/blob/master/Fmask_Prob.png)
+
+Figure 1. Cloud detection accuracies with different cloud probability threshold based on a total of 142 images.
+
 The 3.3 & 3.2 versions of Fmask is ready to use now! Able to process **Landsat 4, 5, 7, and 8** (**with TIRS and without TIRS**) and **Sentinel 2** images on Windows, Mac, and Linux machines. If you do not have Matlab available, you can either using the stand alone version built here, or build your own. For best results, please use the 3.3 version.
 
 # 3.3 Version
@@ -30,12 +36,6 @@ The 3.3 version of **Windows stand alone software** for **Landsats 4-8 in which 
 The 3.2 version of **Matlab code** for **Sentinel 2** images can be downloaded at this [link] (https://www.dropbox.com/sh/eoh8kgf4htttmqv/AAAwgZzCKwdFwsQp2OIT_DGqa?dl=0) (provided by Martin Claverie mcl@umd.edu)
 
 The 3.2 version of **Windows stand alone software** for **Sentinel 2** images can be downloaded at this [link] (https://www.dropbox.com/s/flc88qd2b1hhxc0/MyAppInstaller_web.exe?dl=0) (Not working at the moment)
-
-Note that you can change your paramters in Fmask to get best cloud, cloud shadow, and snow detection results in the Matlab code. One of the most important parameter is the cloud proability threshold (Figure 1). The 22.5% is the best threshold for overall accuracy, but if you want less comission error, higher probablity is expected (50% for instance) and if you want less omission error, lower probability is expected (12.5% for instance). 
-
-![alt text](https://github.com/prs021/fmask/blob/master/Fmask_Prob.png)
-
-Figure 1. Cloud detection accuracies with different cloud probability threshold based on a total of 142 images.
 
 Please cite the following papers:
 
