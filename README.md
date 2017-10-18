@@ -32,7 +32,7 @@ The 3.3 version of **Matlab code** for **Landsats 4-8 in which Landsat 8 does no
 
 The 3.3 version of **Windows stand alone software** for **Landsats 4-8 in which Landsat 8 does not have valid TIRS band** (zeor values) can be downloaded at this [link] (https://www.dropbox.com/sh/760d18apsfrph3i/AADwp4x0o8XMys6CDBpX6Fgma?dl=0) (provided by Sean Griffin segriffin@gmail.com)
 
-The 3.2 version of **Matlab code** for **Sentinel 2** images can be downloaded at this [link] (https://www.dropbox.com/sh/eoh8kgf4htttmqv/AAAwgZzCKwdFwsQp2OIT_DGqa?dl=0) (provided by Martin Claverie mcl@umd.edu; this version is not the same as the Fmask 3.2 version desigined for Sentinel-2 by Zhu et at., 2015)
+The 3.3 version of **Matlab code** for **Sentinel 2** images can be downloaded at this [link] (https://www.dropbox.com/sh/df5svcpmfddefxu/AACOpdjydXQWmtUDYP1_mDaxa?dl=0) (Fmask 3.3 version desgined for Sentinel-2 data with help from Martin Claverie, Shi Qiu, and Xiaojing Tang). Note that this code is exactly the same as Zhu et al., 2014 proposed. 
 
 Please cite the following papers:
 
