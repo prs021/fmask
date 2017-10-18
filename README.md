@@ -10,7 +10,7 @@ The 3.3 version of Fmask is ready to use now! Able to process **Landsat 4, 5, 7,
 
 **IMPORTANT: Fmask can work for both pre-collection and Collection 1 Landsat data now.**
 
-**IMPORTANT: Due to the failure of the Thermal Infrared Sensor (TIRS) after December 18, 2014 (DOY 352), the original Fmask algorithm developed for Landsat 8 would not work. Please use the Fmask designed for Sentinel 2 instead (Landsat 8 images without TIR bands).**
+**IMPORTANT: If it is OLI data only Landsat 8 images, please use the Fmask designed for Sentinel 2 instead (Landsat 8 images without TIR bands). If it is TIRS data only Landsat 8 images, Fmask will not work.**
 
 **IMPORTANT: You can change your paramters in Fmask to get best cloud, cloud shadow, and snow detection results in the Matlab code. One of the most important parameter is the cloud proability threshold (Figure 1). The 22.5% is the best threshold for overall accuracy, but if you want less comission error, higher probablity is expected (50% for instance) and if you want less omission error, lower probability is expected (12.5% for instance).** 
 ![alt text](https://github.com/prs021/fmask/blob/master/Fmask_Prob.png)
