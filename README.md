@@ -4,7 +4,7 @@ Fmask software
 
 The software called Fmask (Function of mask) is used for automated clouds, cloud shadows, and snow masking for Landsats 4-7, Landsat 8, and Sentinel 2 images. Please contact Zhe Zhu (zhe.zhu@ttu.edu) at Department of Geosciences, Texas Tech University if you have any questions.
 
-**IMPORTANT: Fmask 4.0 beta software on Windows (~1G) is ready to use now! It can be downloaded at this [link] (https://drive.google.com/drive/folders/1SXBnEBDJ1Kbv7IQ9qIgqloYHZfdP6O1O). This version has substantial better cloud, cloud shadow, and snow detection results for Sentinel-2 Level-1C product and better results (compared to the 3.3 version that is currently being used by USGS as the Collection 1 QA Band) for Landsats 4-8 Collection 1 product.**
+**IMPORTANT: Fmask 4.0 beta software on Windows (~1G) is ready to use now! It can be downloaded at this [link] (https://drive.google.com/drive/folders/1SXBnEBDJ1Kbv7IQ9qIgqloYHZfdP6O1O). This version has substantial better cloud, cloud shadow, and snow detection results for Sentinel-2 and better results (compared to the 3.3 version that is currently being used by USGS as the Collection 1 QA Band) for Landsats 4-8 .** This one software can be used for Landsats 4-8 Collection 1 product and Sentinel 2 Level-1C product.
 
 
 The 3.3 version of Fmask is ready to use now! Able to process **Landsat 4, 5, 7, and 8** and **Sentinel 2** images on Windows, Mac, and Linux machines. If you do not have Matlab available, you can either using the stand alone version built here, or build your own. For best results, please use the 3.3 version.
