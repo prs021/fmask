@@ -13,7 +13,7 @@ This version has substantial better cloud, cloud shadow, and snow detection resu
 # 4.0 Version
 
 
-1) Adjusted the xxx value that will result in many omission errors for small clouds.  (Shi Qiu 04/05/2018)
+1) Adjusted the xxx value that will result in many omission errors for small clouds.  (Shi Qiu and Zhe Zhu 04/05/2018)
 
 2) Restricted the height of the clouds located in the scene boundary into the predicted cloud height derived from its neighboring clouds.  (Shi Qiu 04/05/2018)
 
