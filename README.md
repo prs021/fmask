@@ -4,7 +4,7 @@ Fmask software
 
 The software called Fmask (Function of mask) is used for automated clouds, cloud shadows, and snow masking for Landsats 4-7, Landsat 8, and Sentinel 2 images. Please contact Zhe Zhu (zhe.zhu@ttu.edu) at Department of Geosciences, Texas Tech University if you have any questions.
 
-**IMPORTANT: Fmask 4.0 beta software on Windows (~1G) is ready to use now! It can be downloaded at this [link] (https://drive.google.com/drive/folders/1SXBnEBDJ1Kbv7IQ9qIgqloYHZfdP6O1O).** 
+**IMPORTANT: Fmask 4.0 software on Windows (~1G) is ready to use now! It can be downloaded at this [link] (https://drive.google.com/drive/folders/1SXBnEBDJ1Kbv7IQ9qIgqloYHZfdP6O1O).** 
 
 This version has substantial better cloud, cloud shadow, and snow detection results for Sentinel 2 and better results (compared to the 3.3 version that is currently being used by USGS as the Collection 1 QA Band) for Landsats 4-8 . This one software can be used for Landsats 4-8 Collection 1 product and Sentinel 2 Level-1C product at the same time.
 
@@ -12,18 +12,19 @@ This version has substantial better cloud, cloud shadow, and snow detection resu
 
 # 4.0 Version
 
+1) Published Fmask 4.0 verion. (Shi Qiu, Zhe Zhu, and Binbin He 04/26/2018)
 
-1) Adjusted the xxx value that will result in many omission errors for small clouds.  (Shi Qiu and Zhe Zhu 04/05/2018)
+2) Adjusted the xxx value that will result in many omission errors for small clouds.  (Shi Qiu and Zhe Zhu 04/05/2018)
 
-2) Restricted the height of the clouds located in the scene boundary into the predicted cloud height derived from its neighboring clouds.  (Shi Qiu 04/05/2018)
+3) Restricted the height of the clouds located in the scene boundary into the predicted cloud height derived from its neighboring clouds.  (Shi Qiu 04/05/2018)
 
-3) Removed the overlap between the predicted cloud shadow and the potential cloud shadow layer for cloud shadow detection. (Shi Qiu and Zhe Zhu 03/29/2018)
+4) Removed the overlap between the predicted cloud shadow and the potential cloud shadow layer for cloud shadow detection. (Shi Qiu and Zhe Zhu 03/29/2018)
 
-4) Fixed the bug that the reading blue band using GRIDobj may lead to Nan value for Landsat images. (Shi Qiu 03/26/2018)
+5) Fixed the bug that the reading blue band using GRIDobj may lead to Nan value for Landsat images. (Shi Qiu 03/26/2018)
 
-5) Improved the computational efficiency specially for cloud shadow matching procedure.  (Zhe Zhu and Shi Qiu 03/24/2018)
+6) Improved the computational efficiency specially for cloud shadow matching procedure.  (Zhe Zhu and Shi Qiu 03/24/2018)
 
-6) Published Fmask 4.0 beta version. (Shi Qiu, Zhe Zhu, and Binbin He 03/22/2018)
+7) Published Fmask 4.0 beta version. (Shi Qiu, Zhe Zhu, and Binbin He 03/22/2018)
 
 
 # 3.3 Version
